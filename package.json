@@ -1,10 +1,12 @@
-    {
-      "name": "afk-bot",
-      "version": "1.0.0",
-      "main": "bot.js",
-      "dependencies": {
-        "mineflayer": "latest",
-        "mineflayer-pathfinder": "latest"
-      }
-    }
-    
+{
+  "name": "afk-bot",
+  "version": "1.0.0",
+  "main": "Bot.js",
+  "scripts": {
+    "start": "node Bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "latest",
+    "mineflayer-pathfinder": "latest"
+  }
+}
